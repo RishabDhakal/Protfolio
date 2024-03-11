@@ -1,0 +1,50 @@
+/* Skills.scss */
+.Skills {
+  margin-left: 20%;
+  width: 80%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+
+  .skills-container {
+    margin: 20px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+
+    li {
+      margin-bottom: 10px;
+      font-size: 2vw;
+      color: rgb(233, 236, 236);
+      width: 40%;
+    }
+  }
+
+  .icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: rgb(141, 141, 148);
+  }
+
+  .progress-bar {
+    background-color: #ada9a9;
+    height: 35px;
+    border-radius: 5px;
+    overflow: hidden;
+
+
+    div {
+       display: flex;
+       align-items: center;
+      height: 100%;
+      background-color: #55356e;
+      padding: 0 10px;
+      position: relative;
+    }
+  }
+}

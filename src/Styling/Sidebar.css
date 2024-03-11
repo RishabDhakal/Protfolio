@@ -1,0 +1,51 @@
+.Sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 100vh;
+  padding-top: 8vh;
+  border-right: 1px solid rgb(248, 246, 246);
+  position: fixed;
+  background-color: rgb(0, 0, 0);
+}
+.Sidebar .Sidebar-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Sidebar .Sidebar-info img {
+  width: 8vw;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 15vh;
+}
+.Sidebar .Sidebar-info h2 {
+  padding-top: 1.6vh;
+  font-size: 1.5vw;
+  color: rgb(211, 203, 203);
+}
+.Sidebar .Sidebar-info p {
+  padding-top: 2vh;
+  font-size: 1vw;
+  color: rgb(228, 225, 225);
+}
+.Sidebar .Sidebar-info p span {
+  color: rgb(165, 107, 232);
+}
+.Sidebar .link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5ch;
+  gap: 5vh;
+}
+.Sidebar .link a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5vw;
+}
+.Sidebar .link a:hover {
+  border-bottom: 3px solid rgb(180, 18, 224);
+}/*# sourceMappingURL=Sidebar.css.map */
